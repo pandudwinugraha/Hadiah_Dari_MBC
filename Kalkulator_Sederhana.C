@@ -13,7 +13,23 @@ int main()
     scanf("%d",&menu_pilihan);
    
      switch (menu_pilihan){
-
+             case 1:
+                  printf("Masukan bilangan pertama : ");
+                  scanf("%d", &a);
+                  printf("Masukan bilangan kedua   : ");
+                  scanf("%d", &b);
+                      hasil = a + b;
+                  printf("Hasil = %d\n", hasil);
+                  break;
+           
+              case 2:
+                 printf("Masukan bilangan pertama : ");
+                 scanf("%d", &a);
+                 printf("Masukan bilangan kedua   : ");
+                 scanf("%d", &b);
+                      hasil = a - b;
+                 printf("Hasil = %d\n", hasil);
+                 break;
 
 
       }

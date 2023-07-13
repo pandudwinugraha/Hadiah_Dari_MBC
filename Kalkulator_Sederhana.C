@@ -31,6 +31,27 @@ int main()
                  printf("Hasil = %d\n", hasil);
                  break;
 
+              case 3:
+                 printf("Masukan bilangan pertama : ");
+                 scanf("%d", &a);
+                 printf("Masukan bilangan kedua   : ");
+                 scanf("%d", &b);
+                      hasil = a * b;
+                 printf("Hasil = %d\n", hasil);
+                 break;
+           
+              case 4:
+                 printf("Masukan bilangan pertama : ");
+                 scanf("%f", &c);
+                 printf("Masukan bilangan kedua   : ");
+                 scanf("%f", &d);
+                      hasil_bagi = c / d;   
+                 printf("Hasil = %.2f\n", hasil_bagi);
+                 break;
+
+        default :
+                 printf("Menu yang anda piilih tidak tersedia!");
+                 break;
 
       }
     }
